@@ -16,7 +16,7 @@ const Projects = () => {
       title: 'MediSense AI',
       subtitle: 'Symptom to Action',
       description: 'AI-powered health assistant that interprets user symptoms and provides possible causes, severity levels, and direct medicine or doctor suggestions, with ePharmacy integration.',
-      tech: ['REACT', 'NODE.JS', 'OPENAI API', 'TESSERACT.JS'],
+      tech: [ 'SPRING BOOT','REACT', 'NODE.JS', 'OPENAI API', 'TESSERACT.JS'],
       link: 'https://github.com/anand0047/medisense-ai',
       neon: 'pink'
     },
@@ -51,21 +51,21 @@ const Projects = () => {
   ];
 
   const testimonials = [
-    {
-      platform: 'HACKERRANK',
-      achievement: 'ELITE STATUS - JAVA',
-      details: '5★ Gold Badge | Algorithm Expert',
-      icon: 'fa-hackerrank',
-      link: 'https://www.hackerrank.com/profile/anandram221003',
-      glow: 'cyan'
-    },
+   
     {
       platform: 'LEETCODE',
-      achievement: 'CODING GLADIATOR',
-      details: '150+ Algorithms Solved | Daily Streak',
+      achievement: '',
+      details: '400+ Algorithms Solved | Daily Streak',
       icon: 'fa-code',
       link: 'https://leetcode.com/u/_anand47_/',
-      glow: 'yellow'
+      glow: 'green'
+    }, {
+      platform: 'Codolio (All-in-one)',
+      achievement: '',
+      details: '600+ Problems Solved ',
+      icon: 'fa-code',
+      link: 'https://codolio.com/profile/Anand47',
+      glow: 'cyan'
     }
   ];
 
